@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="PinIndicator" parent="android:style/Widget.Button">
+        <item name="colorButtonNormal">#FFFFFF</item>
+        <item name="android:colorControlActivated">#333333</item>
+        <item name="android:shadowColor">#FFFFFF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:width">75dp</item>
+        <item name="android:height">75dp</item>
+    </style>
+
+    <style name="ScoringFrames" parent="TextAppearance.AppCompat">
+        <item name="android:gravity">center</item>
+
+
+    </style>
+
+    <style name="ScoringFramesTotal" parent="TextAppearance.AppCompat">
+        <item name="android:gravity">center</item>
+
+
+
+    </style>
+
+
+</resources>
